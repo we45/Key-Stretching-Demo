@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Key stretching demo</title>
+    </head>
+    <body>
+        <h3>Key stretching demo</h3>
+        <p><em>Hash Type: </em>{{ hash_type }}</p>
+        <p><em>Password: </em>{{ password }}</p>
+        <p><em>Hash: </em>{{ hash }}</p>
+        <p><em>Time taken: </em>{{'%0.10f'| format(duration|float)}} seconds</p>
+    </body>
+</html>

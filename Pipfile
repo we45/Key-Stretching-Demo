@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+"pep8" = "*"
+"autopep8" = "*"
+
+[packages]
+flask = "*"
+"simple-pbkdf2" = "*"
+flask-bcrypt = "*"
+"argon2-cffi" = "*"
+
+[requires]
+python_version = "2.7"
